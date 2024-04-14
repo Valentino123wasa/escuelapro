@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="Página Oficial de la Escuela de Educación Secundaria número 3">
+    <meta author="Valentino Talanchuk">
+    <meta name="keywords" content="Escuela, EESN3, Escuela De Abbott, Abbott, Monte, Escuela Monte">
+    <link rel="icon" href="logo.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>EESN3 -- Lobby</title>
+</head>
+<body>
+    
+    <header>
+    <h1 class="Upper_title"> Escuela de Educación Secundaria Número 3 de Abbott </h1>
+    </header>
+        <div class="menu-container">
+            <div class="header">
+                <button id="toggle-menu">&#9776; Menú</button>
+            </div>
+            <nav class="slide-menu">
+                <ul> 
+                    <li class="menu-options"><a href="pag2.html">Información</a></li>
+                    <li class="menu-options"><a href="pag3.html">Proyectos de la escuela</a></li>
+                    <li class="menu-options"><a href="pag4.html">Información extra</a> </li>
+                    <li class="menu-options"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjI7o_5hZuEAxXVlJUCHQmaBtsQFnoECA8QAQ&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FAbbott&usg=AOvVaw1la1ntmxk71N5EvC6CqIH_&opi=89978449">Página de Wikipedia de el pueblo</a></li>
+                    <li class="logo"> <img src="logotransparente.png" width="125px" title="Logo de la escuela"> </li>
+           
+                    
+                    <!-- Modo Oscuro (Deshabilitado porque al final el fondo terminó siendo una imagen)
+            <div class="Contenedordarkmode">
+                <h2 class="dark_mode_text">Modo oscuro</h2>
+                <label class="switch">
+                    <input type="checkbox" id="toggle-dark-mode">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            -->
+         
+            </ul>
+        </nav>
+        <div class="content">
+         
+            
+                    <p class="introduccion">Bienvenido/a, la Escuela de Educación Secundaria Número 3 de Abbott es una escuela rural ubicada en el pueblo de Abbott en la localidad de Monte, Buenos Aires.</p>
+                    <center> <!-- sé que center no se usa, pero no me daban las neuronas para centrar la img -->
+                        <img class="fotologo" src="logo.png" title="Logo de la escuela">
+                    </center>
+            </div>
+        </div>
+
+    </div>
+    
+    
+    <div class="info-post-img">
+        <p> Esta escuela se caracteriza por su jornada extendida, iniciando las clases a las 8:15 AM y finalizando los horarios a las 4:30 PM. 
+            
+            Se destaca por participar y organizar proyectos variados con la intención de proporcionarles a los estudiantes una experiencia nueva, motivarlos a investigar, buscar información, experimentar y crear <em>Arte</em>. Somos una escuela comprometida con la excelencia académica y el desarrollo integral de nuestros estudiantes. Ofrecemos una amplia gama de programas educativos y actividades extracurriculares para inspirar a los alumnos.
+        </p>
+        
+    </div>
+    
+    
+    <div class="fotobox">
+    </div>
+</div>
+<!-- Formulario de contacto hecho con ayuda artificial con la intención de probar si se podía hacer que me llegue el mensaje, pero no se pudo-->
+<footer class="info-inferior">
+    <section id="contacto">
+    <form action="enviar.php" method="POST" class="Contact_card">
+            <h2 class="Contacto_title" >Contacto</h2>
+
+            <fieldset class="Info_pers">
+                <legend class="leg_pers">Información Personal</legend>
+                <input type="text" name="nombre" placeholder="Tu Nombre" required>
+                <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
+            </fieldset>
+            <fieldset class="info_extra"> <legend class="description_extra"> Información Extra</legend>
+            <textarea name="mensaje" placeholder="Tu Mensaje" required></textarea> </fieldset>
+            <button type="submit">Enviar</button>
+            <textarea name="Informacion" id="infoform"  disabled> Esto está deshabilitado por ahora dada la falta de presupuesto, pero queda fachero dejarlo asi. En un futuro servirá para comunicar sugerencias y/o preguntas.</textarea>
+        </form>
+    </section>
+    
+</footer>    
+
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
